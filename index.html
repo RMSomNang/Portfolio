@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHY SAMNANG | Architect & Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="theme-color" content="#00E5B0">
+    <meta name="msapplication-navbutton-color" content="#00E5B0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#00E5B0">
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <span class="theme-label">Toggle dark mode</span>
+            <input type="checkbox" id="checkbox" title="Toggle dark mode" />
+            <div class="slider round"></div>
+        </label>
+    </div>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO</div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#architecture">Architecture</a>
+            <a href="#development">Development</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1><span class="highlight">PHY SAMNANG</span></h1>
+            <h2>Architect & Developer</h2>
+            <p class="hero-description">Creating innovative spaces in both physical and digital realms</p>
+            <div class="cta-buttons">
+                <a href="#work" class="cta-primary">View My Work</a>
+                <a href="#contact" class="cta-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-illustration">
+            <img src="hero-illustration.svg" alt="Creative workspace illustration">
+        </div>
+        <div class="wave-decoration"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a multidisciplinary professional combining architectural design with software development. My unique perspective allows me to create both physical and digital spaces that enhance user experiences.</p>
+                <div class="skills">
+                    <div class="skill-category">
+                        <h3>Architecture</h3>
+                        <ul>
+                            <li>Architectural Design</li>
+                            <li>3D Modeling</li>
+                            <li>Sustainable Design</li>
+                            <li>BIM</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Development</h3>
+                        <ul>
+                            <li>Frontend Development</li>
+                            <li>Backend Development</li>
+                            <li>UI/UX Design</li>
+                            <li>Mobile Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="your-image.jpg" alt="Your Profile">
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Preview Section -->
+    <section id="work" class="work-preview">
+        <div class="work-category architecture">
+            <h2>Architecture Portfolio</h2>
+            <div class="preview-grid">
+                <!-- Add 3-4 featured architecture projects -->
+                <div class="project-card">
+                    <img src="arch-project1.jpg" alt="Architecture Project 1">
+                    <div class="project-info">
+                        <h3>Project Name</h3>
+                        <p>Brief description</p>
+                        <a href="architecture.html" class="view-more">View Project</a>
+                    </div>
+                </div>
+                <!-- Add more project cards -->
+            </div>
+            <a href="architecture.html" class="see-all">See All Architecture Projects</a>
+        </div>
+
+        <div class="work-category development">
+            <h2>Development Projects</h2>
+            <div class="preview-grid">
+                <!-- Add 3-4 featured development projects -->
+                <div class="project-card">
+                    <img src="dev-project1.jpg" alt="Development Project 1">
+                    <div class="project-info">
+                        <h3>Project Name</h3>
+                        <p>Brief description</p>
+                        <a href="development.html" class="view-more">View Project</a>
+                    </div>
+                </div>
+                <!-- Add more project cards -->
+            </div>
+            <a href="development.html" class="see-all">See All Development Projects</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:your.email@example.com">your.email@example.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
